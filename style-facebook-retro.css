@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(5, 5, 175);
+padding: 20px;
+}
+
+.logo {
+    font-family: Helvetica;
+    color: white;
+    align-self: flex-end;
+}
+
+/* formulario cabeçalho */
+
+.login{
+    display: flex;
+    flex-direction:row ;
+    gap: 10px;
+    margin: 5px;
+}
+div.form1{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+div.form2{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.btn {  /* olhar depois !! */
+padding: 0px 1px 0px 1px;
+color: white;
+background-color: rgb(5, 5, 175);
+border: 1px solid black;
+}
+p.email  {
+    color: white;
+    text-align: center;
+    padding-bottom: 3px;
+}
+p.senha  {
+    color: white;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+/* conteudo principal esquerda */
+
+.container {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ padding: 0px 20px;
+ gap:  60px;
+ background-color: rgba(3, 160, 252, 0.1);
+}
+
+.conteudo-lateral-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 40px;
+}
+
+.mensagem {
+    color: rgb(4, 4, 196);
+    padding-top: 25px;
+}
+
+img{
+    height: 250px;
+
+}
+/* conteudo principal direita*/
+
+
+.conteudo-lateral-direito{
+ display: flex;
+ flex-direction: column;
+
+ align-items: center;
+}
+
+.abra-conta{
+    font-size: 40px;
+ 
+}
+.msg-conta{
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+
+.inicio-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+
+}
+.nome-sobrenome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio-formulario input {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+.data-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.data-dados a {
+    font-size: 12px;
+    padding: 5px;
+}
+.fem-mas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+p.p-inscrever  {
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+}
+
+.btn-inscrever {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding:  10px;
+    cursor: pointer;
+    /* OLHAR DEPOIS! */
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+}
+.rodape p {
+align-self: flex-end;
+padding: 20px;
+}
